@@ -12,7 +12,6 @@ export default function ShippingAddressPage() {
     register,
     formState: { errors },
     setValue,
-    kakaopay,
   } = useForm()
   const router = useRouter()
   const dispatch = useDispatch()
